@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --color-candle-bg: #11101A;
+  --color-candle-surface: #1B1927;
+  --color-candle-elevated: #242132;
+  --color-candle-accent: #BBA2FF;
+  --color-candle-secondary: #F5A8D0;
+  --color-candle-cyan: #79E6DF;
+  --color-candle-yellow: #FFE28A;
+  --color-candle-text: #F8F6FC;
+  --color-candle-muted: #AAA5B8;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-handwriting: 'Caveat', cursive;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+input, textarea {
+  user-select: text;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Glow effects */
+.glow-accent {
+  box-shadow: 0 0 25px -5px rgba(187, 162, 255, 0.4);
+}
+.glow-accent-strong {
+  box-shadow: 0 0 35px 2px rgba(187, 162, 255, 0.6);
+}
+.glow-secondary {
+  box-shadow: 0 0 25px -5px rgba(245, 168, 208, 0.4);
+}

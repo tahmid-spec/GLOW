@@ -1,0 +1,6 @@
+{
+  "name": "Candle - Private Two-Person Connection",
+  "description": "A little space, just for us. Minimal two-person social connection app with shared canvas doodles, walkie-talkie voice notes, secure code pairing, and live widgets.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

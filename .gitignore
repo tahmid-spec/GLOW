@@ -1,0 +1,13 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+.aistudio/
+android/app/build/
+android/.gradle/
+android/build/
+capacitor-cordova-android-plugins/

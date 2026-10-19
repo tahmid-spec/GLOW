@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "Glow — Private Two-Person Space",
+  "short_name": "Glow",
+  "description": "A little space, just for us. Minimal two-person connection app with shared canvas doodles, 10s walkie-talkie voice notes, and live widgets.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#11101A",
+  "background_color": "#11101A",
+  "categories": ["social", "lifestyle"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

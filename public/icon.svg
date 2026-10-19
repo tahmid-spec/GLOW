@@ -1,0 +1,38 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="128" fill="#11101A" />
+  <circle cx="256" cy="256" r="160" fill="url(#bgGlow)" opacity="0.25" />
+  <defs>
+    <radialGradient id="bgGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 256) rotate(90) scale(160)">
+      <stop stop-color="#BBA2FF" />
+      <stop offset="1" stop-color="#F5A8D0" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="heartGrad" x1="120" y1="120" x2="380" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5A8D0" />
+      <stop offset="0.5" stop-color="#BBA2FF" />
+      <stop offset="1" stop-color="#79E6DF" />
+    </linearGradient>
+    <filter id="glowFilter" x="0" y="0" width="512" height="512" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Glowing Heart Outline -->
+  <path
+    d="M 256 410 
+       C 240 395, 96 280, 96 180 
+       C 96 110, 150 80, 206 90 
+       C 236 95, 251 115, 256 130 
+       C 261 115, 276 95, 306 90 
+       C 362 80, 416 110, 416 180 
+       C 416 280, 272 395, 256 410 Z"
+    stroke="url(#heartGrad)"
+    stroke-width="28"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    filter="url(#glowFilter)"
+  />
+
+  <!-- Subtle Center Flame / Spark -->
+  <circle cx="256" cy="210" r="14" fill="#FFE28A" />
+</svg>
